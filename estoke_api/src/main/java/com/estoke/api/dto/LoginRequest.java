@@ -1,0 +1,8 @@
+
+package com.estoke.api.dto;
+
+public record LoginRequest(
+    String email,
+    String senha
+) {
+}

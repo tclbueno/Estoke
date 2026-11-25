@@ -1,0 +1,28 @@
+﻿# Java / Spring Boot
+target/
+*.class
+*.jar
+*.war
+*.log
+
+# Flutter / Dart
+**/build/
+**/build_backup/
+**/.dart_tool/
+**/.packages
+**/.pub-cache/
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+**/coverage/
+
+# IDE e sistema
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Arquivos privados
+.env
+.env.*
+!.env.example
+application-local.properties
